@@ -1,5 +1,5 @@
-import ProductCard from "@/components/ProductCard";
-import TooltipButton from "@/components/TooltipButton";
+import ProductCard from "./components/ProductCard";
+import TooltipButton from "./components/TooltipButton";
 
 export default function Home() {
   return (
