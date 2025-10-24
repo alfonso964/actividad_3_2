@@ -1,10 +1,10 @@
-import ProductCard from "./components/ProductCard";
-import TooltipButton from "./components/TooltipButton";
+import ProductCard from "@/components/ProductCard";
+import TooltipButton from "@/components/TooltipButton";
 
 export default function Home() {
   return (
     <div className="p-6">
-      <h1 className="text-4xl font-bold mb-6 text-center">Tienda apasionados por el fútbol</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center">Tienda apasionados por el futbol</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <ProductCard nombre="Balón Adidas" precio="39.99" img="/balon.jpg" />
